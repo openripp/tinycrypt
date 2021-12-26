@@ -15,6 +15,7 @@ The TinyCrypt Library provides an implementation for targeting constrained devic
 
 Aside from the Important Remarks section below, valuable information on the usage, security and technicalities of each cryptographic primitive are found in the corresponding header file.
 
+```
 SHA-256:
 Type of primitive: Hash function.
 Standard Specification: NIST FIPS PUB 180-4.
@@ -59,3 +60,4 @@ ECC-DSA:
 Type of primitive: Digital signature based on curve NIST p-256.
 Standard Specification: RFC 6090.
 Requires: ECC auxiliary functions (ecc.h/c).
+```
